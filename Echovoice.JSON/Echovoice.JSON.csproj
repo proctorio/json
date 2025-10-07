@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0;net6.0;net8.0;net9.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    
+    <!-- Package Information -->
+    <PackageId>Echovoice.JSON</PackageId>
+    <Version>3.0.0</Version>
+    <Authors>Echovoice</Authors>
+    <Company>Echovoice</Company>
+    <Product>Echovoice.JSON</Product>
+    <Description>Lightweight JSON array encoder/decoder library for .NET. Provides simple, fast JSON array encoding and decoding without complex object mapping.</Description>
+    <Copyright>Copyright © Echovoice 2025</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/echovoice/Echovoice.JSON</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/echovoice/Echovoice.JSON</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>json;encoder;decoder;lightweight;array;parsing</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- .NET Framework specific settings -->
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net45'">
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+  <!-- Source Link Support -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
