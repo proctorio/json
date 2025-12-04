@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Echovoice.JSON
+namespace Proctorio.JSON
 {
     /// <summary>
     /// Provides methods for encoding C# objects and arrays into JSON format.

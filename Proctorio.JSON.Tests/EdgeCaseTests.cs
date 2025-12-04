@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Echovoice.JSON.Tests
+namespace Proctorio.JSON.Tests
 {
     [TestClass]
     public class EdgeCaseTests

@@ -1,12 +1,12 @@
 <Project>
   <PropertyGroup>
-    <Authors>Echovoice</Authors>
-    <Company>Echovoice</Company>
-    <Copyright>Copyright © Echovoice 2025</Copyright>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/echovoice/Echovoice.JSON</RepositoryUrl>
+    <Authors>Proctorio</Authors>
+    <Company>Proctorio</Company>
+    <Copyright>Copyright © Proctorio 2025</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/proctorio/json</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/echovoice/Echovoice.JSON</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/proctorio/json</PackageProjectUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
 

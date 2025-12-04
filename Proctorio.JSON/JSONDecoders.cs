@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Echovoice.JSON
+namespace Proctorio.JSON
 {
     /// <summary>
     /// Provides methods for decoding JSON arrays into string arrays.
