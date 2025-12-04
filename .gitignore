@@ -152,3 +152,11 @@ $RECYCLE.BIN/
 
 # github files
 .github/
+# NuGet package output
+nupkg/
+*.nupkg
+*.snupkg
+
+# Code coverage
+coverage/
+*.cobertura.xml
