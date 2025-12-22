@@ -120,8 +120,13 @@ namespace Proctorio.JSON
         /// </summary>
         /// <param name="s">The string to encode.</param>
         /// <returns>A JSON-formatted string with surrounding quotes and proper escaping.</returns>
-        public static string EncodeJsString(string s)
+        public static string EncodeJsString(string? s)
         {
+            // Handle null input by returning empty JSON string (same as string.Empty)
+            if (s == null)
+            {
+                return "\"\"";
+            }
             StringBuilder sb = new StringBuilder(s.Length);
             sb.Append("\"");
             foreach (char c in s)

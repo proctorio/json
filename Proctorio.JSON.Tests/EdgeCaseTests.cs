@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using FluentAssertions;
 using System;
 
 namespace Proctorio.JSON.Tests
@@ -156,6 +157,31 @@ namespace Proctorio.JSON.Tests
             Assert.AreEqual(2, level3.Length);
             Assert.AreEqual("1", level3[0]);
             Assert.AreEqual("2", level3[1]);
+        }
+        [TestMethod]
+        public void EncodeJsString_WhenInputIsNull_ShouldReturnEmptyJsonString()
+        {
+            // Arrange
+            string? input = null;
+
+            // Act
+            string result = JSONEncoders.EncodeJsString(input);
+
+            // Assert
+            result.Should().Be("\"\"");
+        }
+
+        [TestMethod]
+        public void EncodeJsString_WhenInputIsEmptyString_ShouldReturnEmptyJsonString()
+        {
+            // Arrange
+            string input = string.Empty;
+
+            // Act
+            string result = JSONEncoders.EncodeJsString(input);
+
+            // Assert
+            result.Should().Be("\"\"");
         }
     }
 }
