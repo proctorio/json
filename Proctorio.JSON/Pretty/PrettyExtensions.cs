@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 // Pretty routines are based on work by Mark Rogers twitter.com/MarkRogers0
 // http://www.markdavidrogers.com/oxitesample/Blog/json-pretty-printerbeautifier-library-for-net
 
-namespace Echovoice.JSON.Pretty
+namespace Proctorio.JSON.Pretty
 {
     /// <summary>
     /// Extension methods for JSON pretty printing.

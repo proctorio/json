@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.1.0] - 2025-12-03
+
+### Changed
+- **BREAKING**: Renamed package from `Echovoice.JSON` to `Proctorio.JSON`
+- **BREAKING**: Renamed all namespaces from `Echovoice.JSON` to `Proctorio.JSON`
+- Updated all project references and documentation
+- Migrated repository to GitHub at https://github.com/proctorio/json
+- Updated copyright and ownership to Proctorio
+
+### Migration Guide
+If upgrading from Echovoice.JSON:
+1. Update NuGet package reference from `Echovoice.JSON` to `Proctorio.JSON`
+2. Update all `using Echovoice.JSON;` statements to `using Proctorio.JSON;`
+3. Update all `using Echovoice.JSON.Pretty;` statements to `using Proctorio.JSON.Pretty;`
+
 ## [3.0.0] - 2025-10-07
 
 ### Added

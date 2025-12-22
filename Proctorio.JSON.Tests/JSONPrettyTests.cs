@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using Echovoice.JSON.Pretty;
+using Proctorio.JSON.Pretty;
 
-namespace Echovoice.JSON.Tests
+namespace Proctorio.JSON.Tests
 {
     [TestClass]
     public class JSONPrettyTests

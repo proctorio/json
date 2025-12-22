@@ -4,7 +4,7 @@ using System.Text;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Echovoice.JSON.Tests
+namespace Proctorio.JSON.Tests
 {
     [TestClass]
     public class JSONEncodeTests

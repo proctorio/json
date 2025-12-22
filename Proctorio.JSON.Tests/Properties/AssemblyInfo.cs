@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Echovoice.JSON.Tests")]
-[assembly: AssemblyDescription("Unit tests for Echovoice.JSON")]
+[assembly: AssemblyTitle("Proctorio.JSON.Tests")]
+[assembly: AssemblyDescription("Unit tests for Proctorio.JSON")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Echovoice")]
-[assembly: AssemblyProduct("Echovoice.JSON.Tests")]
-[assembly: AssemblyCopyright("Copyright © Echovoice 2025")]
+[assembly: AssemblyCompany("Proctorio")]
+[assembly: AssemblyProduct("Proctorio.JSON.Tests")]
+[assembly: AssemblyCopyright("Copyright © Proctorio 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

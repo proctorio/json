@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Echovoice.JSON.Tests
+namespace Proctorio.JSON.Tests
 {
     [TestClass]
     public class JSONDecodeTests

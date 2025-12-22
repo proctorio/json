@@ -1,6 +1,6 @@
-# Echovoice.JSON
+# Proctorio.JSON
 
-[![NuGet](https://img.shields.io/nuget/v/Echovoice.JSON.svg)](https://www.nuget.org/packages/Echovoice.JSON/)
+[![NuGet](https://img.shields.io/nuget/v/Proctorio.JSON.svg)](https://www.nuget.org/packages/Proctorio.JSON/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![Code Coverage](https://img.shields.io/badge/coverage-98.31%25-brightgreen.svg)]()
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -24,13 +24,13 @@ A lightweight, high-performance JSON array encoder/decoder library for .NET. Pro
 Install via NuGet Package Manager:
 
 ```bash
-dotnet add package Echovoice.JSON
+dotnet add package Proctorio.JSON
 ```
 
 Or via Package Manager Console:
 
 ```powershell
-Install-Package Echovoice.JSON
+Install-Package Proctorio.JSON
 ```
 
 ## 🎯 Quick Start
@@ -40,7 +40,7 @@ Install-Package Echovoice.JSON
 #### Simple String Array
 
 ```csharp
-using Echovoice.JSON;
+using Proctorio.JSON;
 
 string input = "[\"philcollins\",\"Ih8PeterG\"]";
 string[] result = JSONDecoders.DecodeJsStringArray(input);
@@ -103,7 +103,7 @@ string result = JSONEncoders.EncodeJsObjectArray(people);
 ### Pretty Printing
 
 ```csharp
-using Echovoice.JSON.Pretty;
+using Proctorio.JSON.Pretty;
 
 string input = "[14,4,[14,\"data\"],[[5,\"10.186.122.15\"],[6,\"10.186.122.16\"]]]";
 string pretty = input.PrettyPrintJson();
@@ -157,11 +157,11 @@ Output:
 | `string.PrettyPrintJson()` | Formats JSON with proper indentation |
 | `string.Slice(int start, int end)` | Python-like string slicing (supports negative indices) |
 
-## 🔧 Why Echovoice.JSON?
+## 🔧 Why Proctorio.JSON?
 
 ### Comparison with Other Libraries
 
-| Feature | Echovoice.JSON | Json.NET | System.Text.Json |
+| Feature | Proctorio.JSON | Json.NET | System.Text.Json |
 |---------|----------------|----------|------------------|
 | **Runtime Dependencies** | **Zero** | Multiple | None (built-in) |
 | Package Size | Minimal (~35KB) | Large (~700KB) | Built-in |
@@ -171,7 +171,7 @@ Output:
 | Performance | Fast | Medium | Fast |
 | Memory Footprint | Minimal | Large | Medium |
 
-**When to use Echovoice.JSON:**
+**When to use Proctorio.JSON:**
 - You need simple JSON array encoding/decoding
 - You want **zero runtime dependencies**
 - You're working with legacy .NET Framework projects
@@ -189,8 +189,8 @@ Output:
 ### Building from Source
 
 ```bash
-git clone https://github.com/echovoice/Echovoice.JSON.git
-cd Echovoice.JSON
+git clone https://github.com/proctorio/json.git
+cd json
 dotnet build
 ```
 
@@ -230,15 +230,15 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 🙏 Credits
 
+- Originally developed by Echovoice
 - String slicing extension credit: [DotNetPerls](http://www.dotnetperls.com/string-slice)
 - Original encode inspiration: [Rick Strahl's Blog](http://www.west-wind.com/weblog/posts/2007/Jul/14/Embedding-JavaScript-Strings-from-an-ASPNET-Page)
 
 ## 📮 Support
 
-- 📧 Issues: [GitHub Issues](https://github.com/echovoice/Echovoice.JSON/issues)
-- 📦 NuGet: [Echovoice.JSON](https://www.nuget.org/packages/Echovoice.JSON/)
+- 📧 Issues: [GitHub Issues](https://github.com/proctorio/json/issues)
+- 📦 NuGet: [Proctorio.JSON](https://www.nuget.org/packages/Proctorio.JSON/)
 
 ---
 
-Made with ❤️ by Echovoice
-
+Made with ❤️ by Proctorio

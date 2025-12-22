@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 // Initial version thanks to
 // http://stackoverflow.com/questions/4580397/json-formatter-in-c
 
-namespace Echovoice.JSON.Pretty
+namespace Proctorio.JSON.Pretty
 {
     /// <summary>
     /// Provides JSON pretty printing functionality with proper indentation.

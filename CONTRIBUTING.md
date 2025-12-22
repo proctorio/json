@@ -1,6 +1,6 @@
-# Contributing to Echovoice.JSON
+# Contributing to Proctorio.JSON
 
-First off, thank you for considering contributing to Echovoice.JSON! It's people like you that make this project better for everyone.
+First off, thank you for considering contributing to Proctorio.JSON! It's people like you that make this project better for everyone.
 
 ## Code of Conduct
 
@@ -46,12 +46,12 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Echovoice.JSON.git
-   cd Echovoice.JSON
+   git clone https://github.com/YOUR-USERNAME/json.git
+   cd json
    ```
 3. Add the upstream repository:
    ```bash
-   git remote add upstream https://github.com/echovoice/Echovoice.JSON.git
+   git remote add upstream https://github.com/proctorio/json.git
    ```
 4. Install .NET 9.0 SDK or later
 
@@ -110,7 +110,7 @@ Closes #123
 * Ensure tests are deterministic and don't depend on external resources
 * Use descriptive test method names that explain what is being tested
 * Follow the Arrange-Act-Assert pattern
-* Use FluentAssertions for assertions
+* Use standard MSTest assertions
 
 ### Documentation
 
@@ -122,12 +122,12 @@ Closes #123
 ## Project Structure
 
 ```
-Echovoice.JSON/
-├── Echovoice.JSON/          # Main library
+json/
+├── Proctorio.JSON/          # Main library
 │   ├── JSONDecoders.cs      # Decoding functionality
 │   ├── JSONEncoders.cs      # Encoding functionality
 │   └── Pretty/              # Pretty printing
-├── Echovoice.JSON.Tests/    # Unit tests
+├── Proctorio.JSON.Tests/    # Unit tests
 └── README.md                # Project documentation
 ```
 
@@ -135,7 +135,7 @@ Echovoice.JSON/
 
 Releases are handled by project maintainers. The process is:
 
-1. Update version in `Echovoice.JSON.csproj`
+1. Update version in `Proctorio.JSON.csproj`
 2. Update `CHANGELOG.md`
 3. Create a git tag
 4. Push to GitHub
@@ -147,4 +147,4 @@ Feel free to open an issue with your question or reach out to the maintainers.
 
 ## License
 
-By contributing to Echovoice.JSON, you agree that your contributions will be licensed under the MIT License.
+By contributing to Proctorio.JSON, you agree that your contributions will be licensed under the Apache License 2.0.
