@@ -151,7 +151,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 # github files
-.github/
 # NuGet package output
 nupkg/
 *.nupkg
