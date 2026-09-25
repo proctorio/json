@@ -36,7 +36,11 @@ namespace Proctorio.JSON.Tests
         [TestMethod]
         public void testBasicPretty()
         {
-            string complexTestString = File.ReadAllText(Path.Combine("TestFiles", "example.json"));
+            // PrettyPrintJson writes Environment.NewLine, but the fixture's line endings depend on
+            // how git checked it out (LF with core.autocrlf false, CRLF with true), so normalize
+            // the fixture to this platform's newline before comparing.
+            string complexTestString = File.ReadAllText(Path.Combine("TestFiles", "example.json"))
+                .Replace("\r\n", "\n").Replace("\n", NewLine);
 
             Assert.AreEqual(complexTestString, _basicPrettyPrintArrayInObjectExample.PrettyPrintJson());
         }
